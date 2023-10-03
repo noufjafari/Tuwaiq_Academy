@@ -116,20 +116,27 @@ height: 120vh;
 background-color: #ececec;
 display: flex;
 flex-direction: row;
+align-content: center;
 justify-content: center;
+gap: 3%;
 flex-wrap:wrap;
 }
 
 .div-section4{
+
     display: flex;
     flex-direction:column ;
-    justify-content: space-around;
+    width: 30%;
+    gap: 2%;
     margin: 50px;
+    justify-content: end;
+
 }
 .text-left4 .h24{
     color:#91D8DB ;
     display: flex;
     margin-left: 40%;
+    font-size: xx-large;
 
 }
 
@@ -143,11 +150,12 @@ margin-top: 20px;
 .hr- {
     width:100%;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .button-section4{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     text-align: left;
     margin: 50px;
     margin-left: 23%;
@@ -172,11 +180,9 @@ margin-top: 20px;
 .text-right41 {
     display: flex;
     flex-direction:row ;
-/* background-color: rgb(236, 236, 236); */
-padding: 30px;
-width: fit-content;
-margin-left: 100px;
-text-align: right;
+padding-left: 44px;
+padding-bottom: 40px;
+margin-left: 90px;
 }
 .color{
 background-color: rgb(168, 19, 214);
@@ -200,15 +206,33 @@ margin-bottom: 0;
 /* section6 */
 .section6{
     background-color:#57b4a8;
-
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
 }
 .section61{
     display: flex;
-    height: 30vh;
+    height: 10vh;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+}
+.sec6-h1{
+    margin: 50px;
 
 }
+
+.div-form{
+    width: 30%;
+    height: 20%;
+}
+
+input{
+width: 25%;
+padding:  3%;
+border: none;
+text-align: center;
+}
+
 /* section 7 */
 .section7{
     display: flex;
